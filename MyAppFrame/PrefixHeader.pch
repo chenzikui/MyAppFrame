@@ -13,20 +13,24 @@
 /*
  引入头文件
  */
-#import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
 #import "SDAutoLayout.h"
 #import "AFNetworking.h"
 #import "UIImageView+WebCache.h"
 #import "UIView+SDAutoLayout.h"
-#import "MainBaseNetworkRequest.m"
-
-
+#import "MainBaseNetworkRequest.h"
+#import "NSDictionary+ExFoundation.h"
+#import "NSDictionary+SNFoundation.h"
+#import "NSDate+ExFoundation.h"
+#import "NSDate+SNFoundation.h"
+#import "UIColor+SNFoundation.h"
 
 /*
  相关设置
  */
+
 //国际化
 #undef L
 #define L(key) \
@@ -42,7 +46,8 @@
 #define IsStrEmpty(_ref)    (((_ref) == nil) || ([(_ref) isEqual:[NSNull null]]) ||([(_ref)isEqualToString:@""]))
 //数组是否为空
 #define IsArrEmpty(_ref)    (((_ref) == nil) || ([(_ref) isEqual:[NSNull null]]) ||([(_ref) count] == 0))
-
+//nil字符串判断返回
+#define VALIDATE_STRING(str) (IsNilOrNull(str) ? @"" : str)
 
 
 #endif /* PrefixHeader_pch */

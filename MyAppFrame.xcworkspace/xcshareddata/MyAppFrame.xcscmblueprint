@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3B7B59D9A49DE88FAFF88C3E93F605A75EF96D9E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3B7B59D9A49DE88FAFF88C3E93F605A75EF96D9E" : 9223372036854775807,
+    "37072486377E3E4762706E182BDA7F8212EF5B48" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E6F243F8-0A52-4872-B6B2-855B2B9FC49D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3B7B59D9A49DE88FAFF88C3E93F605A75EF96D9E" : "MyAppFrame\/",
+    "37072486377E3E4762706E182BDA7F8212EF5B48" : "..\/DHB"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MyAppFrame",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MyAppFrame.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/120.27.149.8:9001\/xuanjian\/DHB.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "37072486377E3E4762706E182BDA7F8212EF5B48"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/chenzikui\/MyAppFrame.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3B7B59D9A49DE88FAFF88C3E93F605A75EF96D9E"
+    }
+  ]
+}
