@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		687DBD71B0245FFBE0F2543D /* libPods-MyAppFrame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC04B44C90F99449DA97CCA /* libPods-MyAppFrame.a */; };
 		E7C6100F1E961DC500BBB0DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C6100E1E961DC500BBB0DD /* main.m */; };
 		E7C610121E961DC500BBB0DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C610111E961DC500BBB0DD /* AppDelegate.m */; };
 		E7C610151E961DC500BBB0DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C610141E961DC500BBB0DD /* ViewController.m */; };
 		E7C610181E961DC500BBB0DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7C610161E961DC500BBB0DD /* Main.storyboard */; };
 		E7C6101A1E961DC500BBB0DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7C610191E961DC500BBB0DD /* Assets.xcassets */; };
 		E7C6101D1E961DC500BBB0DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7C6101B1E961DC500BBB0DD /* LaunchScreen.storyboard */; };
+		E7C610301E9628B300BBB0DD /* GiFHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C6102B1E9628B300BBB0DD /* GiFHUD.m */; };
+		E7C610311E9628B300BBB0DD /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = E7C6102C1E9628B300BBB0DD /* loading.gif */; };
+		E7C610321E9628B300BBB0DD /* MainBaseNetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C6102E1E9628B300BBB0DD /* MainBaseNetworkRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7539BB608AA0092C9790E2BF /* Pods-MyAppFrame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAppFrame.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyAppFrame/Pods-MyAppFrame.release.xcconfig"; sourceTree = "<group>"; };
+		BAC04B44C90F99449DA97CCA /* libPods-MyAppFrame.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyAppFrame.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF9702E9538AB6B1D06E4D3D /* Pods-MyAppFrame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAppFrame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyAppFrame/Pods-MyAppFrame.debug.xcconfig"; sourceTree = "<group>"; };
 		E7C6100A1E961DC500BBB0DD /* MyAppFrame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAppFrame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7C6100E1E961DC500BBB0DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E7C610101E961DC500BBB0DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +33,13 @@
 		E7C610191E961DC500BBB0DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7C6101C1E961DC500BBB0DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7C6101E1E961DC500BBB0DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7C610241E9621F900BBB0DD /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E7C6102A1E9628B300BBB0DD /* GiFHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiFHUD.h; sourceTree = "<group>"; };
+		E7C6102B1E9628B300BBB0DD /* GiFHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GiFHUD.m; sourceTree = "<group>"; };
+		E7C6102C1E9628B300BBB0DD /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
+		E7C6102D1E9628B300BBB0DD /* MainBaseNetworkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainBaseNetworkRequest.h; sourceTree = "<group>"; };
+		E7C6102E1E9628B300BBB0DD /* MainBaseNetworkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainBaseNetworkRequest.m; sourceTree = "<group>"; };
+		E7C6102F1E9628B300BBB0DD /* MainRequestAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainRequestAPI.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				687DBD71B0245FFBE0F2543D /* libPods-MyAppFrame.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22E4117BEFA572FE7F984A84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAC04B44C90F99449DA97CCA /* libPods-MyAppFrame.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D263292D1B3184BF9BF3332 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF9702E9538AB6B1D06E4D3D /* Pods-MyAppFrame.debug.xcconfig */,
+				7539BB608AA0092C9790E2BF /* Pods-MyAppFrame.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E7C610011E961DC500BBB0DD = {
 			isa = PBXGroup;
 			children = (
 				E7C6100C1E961DC500BBB0DD /* MyAppFrame */,
 				E7C6100B1E961DC500BBB0DD /* Products */,
+				7D263292D1B3184BF9BF3332 /* Pods */,
+				22E4117BEFA572FE7F984A84 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +92,9 @@
 		E7C6100C1E961DC500BBB0DD /* MyAppFrame */ = {
 			isa = PBXGroup;
 			children = (
+				E7C610251E96276F00BBB0DD /* Classes */,
+				E7C610261E96279300BBB0DD /* Vonder */,
+				E7C610271E9627A700BBB0DD /* Images */,
 				E7C610101E961DC500BBB0DD /* AppDelegate.h */,
 				E7C610111E961DC500BBB0DD /* AppDelegate.m */,
 				E7C610131E961DC500BBB0DD /* ViewController.h */,
@@ -66,6 +103,7 @@
 				E7C610191E961DC500BBB0DD /* Assets.xcassets */,
 				E7C6101B1E961DC500BBB0DD /* LaunchScreen.storyboard */,
 				E7C6101E1E961DC500BBB0DD /* Info.plist */,
+				E7C610241E9621F900BBB0DD /* PrefixHeader.pch */,
 				E7C6100D1E961DC500BBB0DD /* Supporting Files */,
 			);
 			path = MyAppFrame;
@@ -79,6 +117,49 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E7C610251E96276F00BBB0DD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E7C610261E96279300BBB0DD /* Vonder */ = {
+			isa = PBXGroup;
+			children = (
+				E7C610281E96288400BBB0DD /* BaseNetwork */,
+			);
+			path = Vonder;
+			sourceTree = "<group>";
+		};
+		E7C610271E9627A700BBB0DD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		E7C610281E96288400BBB0DD /* BaseNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				E7C610291E9628B300BBB0DD /* DHBGIFHUD */,
+				E7C6102D1E9628B300BBB0DD /* MainBaseNetworkRequest.h */,
+				E7C6102E1E9628B300BBB0DD /* MainBaseNetworkRequest.m */,
+				E7C6102F1E9628B300BBB0DD /* MainRequestAPI.h */,
+			);
+			path = BaseNetwork;
+			sourceTree = "<group>";
+		};
+		E7C610291E9628B300BBB0DD /* DHBGIFHUD */ = {
+			isa = PBXGroup;
+			children = (
+				E7C6102A1E9628B300BBB0DD /* GiFHUD.h */,
+				E7C6102B1E9628B300BBB0DD /* GiFHUD.m */,
+				E7C6102C1E9628B300BBB0DD /* loading.gif */,
+			);
+			path = DHBGIFHUD;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +167,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7C610211E961DC500BBB0DD /* Build configuration list for PBXNativeTarget "MyAppFrame" */;
 			buildPhases = (
+				7EC525606E90B4BEF7FBAD42 /* [CP] Check Pods Manifest.lock */,
 				E7C610061E961DC500BBB0DD /* Sources */,
 				E7C610071E961DC500BBB0DD /* Frameworks */,
 				E7C610081E961DC500BBB0DD /* Resources */,
+				099C05187E5E74ADED6A7AB0 /* [CP] Embed Pods Frameworks */,
+				AF6F88765C3E7C935BE5A474 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,12 +222,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7C6101D1E961DC500BBB0DD /* LaunchScreen.storyboard in Resources */,
+				E7C610311E9628B300BBB0DD /* loading.gif in Resources */,
 				E7C6101A1E961DC500BBB0DD /* Assets.xcassets in Resources */,
 				E7C610181E961DC500BBB0DD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		099C05187E5E74ADED6A7AB0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyAppFrame/Pods-MyAppFrame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EC525606E90B4BEF7FBAD42 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AF6F88765C3E7C935BE5A474 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyAppFrame/Pods-MyAppFrame-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E7C610061E961DC500BBB0DD /* Sources */ = {
@@ -152,6 +285,8 @@
 			files = (
 				E7C610151E961DC500BBB0DD /* ViewController.m in Sources */,
 				E7C610121E961DC500BBB0DD /* AppDelegate.m in Sources */,
+				E7C610321E9628B300BBB0DD /* MainBaseNetworkRequest.m in Sources */,
+				E7C610301E9628B300BBB0DD /* GiFHUD.m in Sources */,
 				E7C6100F1E961DC500BBB0DD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,23 +405,31 @@
 		};
 		E7C610221E961DC500BBB0DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF9702E9538AB6B1D06E4D3D /* Pods-MyAppFrame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MyAppFrame/PrefixHeader.pch";
 				INFOPLIST_FILE = MyAppFrame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zikui.Chen.MyAppFrame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Debug;
 		};
 		E7C610231E961DC500BBB0DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7539BB608AA0092C9790E2BF /* Pods-MyAppFrame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MyAppFrame/PrefixHeader.pch";
 				INFOPLIST_FILE = MyAppFrame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zikui.Chen.MyAppFrame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Release;
 		};
@@ -309,6 +452,7 @@
 				E7C610231E961DC500BBB0DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

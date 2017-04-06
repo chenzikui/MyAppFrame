@@ -1,0 +1,48 @@
+//
+//  PrefixHeader.pch
+//  MyAppFrame
+//
+//  Created by 陈自奎 on 17/4/6.
+//  Copyright © 2017年 Chen, ZiKui. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+/*
+ 引入头文件
+ */
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <QuartzCore/QuartzCore.h>
+#import "SDAutoLayout.h"
+#import "AFNetworking.h"
+#import "UIImageView+WebCache.h"
+#import "UIView+SDAutoLayout.h"
+#import "MainBaseNetworkRequest.m"
+
+
+
+/*
+ 相关设置
+ */
+//国际化
+#undef L
+#define L(key) \
+[[NSBundle mainBundle] localizedStringForKey:(key) value:@"" table:nil]
+
+//__weak self 定义
+#define WS(weakSelf)  __weak __typeof(&*self)weakSelf = self;
+
+//是否为空或是[NSNull null]
+#define NotNilAndNull(_ref)  (((_ref) != nil) && (![(_ref) isEqual:[NSNull null]]))
+#define IsNilOrNull(_ref)   (((_ref) == nil) || ([(_ref) isEqual:[NSNull null]]))
+//字符串是否为空
+#define IsStrEmpty(_ref)    (((_ref) == nil) || ([(_ref) isEqual:[NSNull null]]) ||([(_ref)isEqualToString:@""]))
+//数组是否为空
+#define IsArrEmpty(_ref)    (((_ref) == nil) || ([(_ref) isEqual:[NSNull null]]) ||([(_ref) count] == 0))
+
+
+
+#endif /* PrefixHeader_pch */
