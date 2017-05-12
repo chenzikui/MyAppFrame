@@ -29,6 +29,21 @@
 		E7C610DF1E963FCB00BBB0DD /* UIColor+SNFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C610D71E963FCB00BBB0DD /* UIColor+SNFoundation.m */; };
 		E7C610E21E96404600BBB0DD /* UIWebView+SNFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C610E11E96404600BBB0DD /* UIWebView+SNFoundation.m */; };
 		E7C610E51E96406F00BBB0DD /* NSData+SNFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C610E41E96406F00BBB0DD /* NSData+SNFoundation.m */; };
+		E7C611171E9728B700BBB0DD /* nav_BG.png in Resources */ = {isa = PBXBuildFile; fileRef = E7C6110B1E9728B700BBB0DD /* nav_BG.png */; };
+		E7C611181E9728B700BBB0DD /* nav_back_button.png in Resources */ = {isa = PBXBuildFile; fileRef = E7C6110C1E9728B700BBB0DD /* nav_back_button.png */; };
+		E7C611191E9728B700BBB0DD /* nav_back_button_hightlight.png in Resources */ = {isa = PBXBuildFile; fileRef = E7C6110D1E9728B700BBB0DD /* nav_back_button_hightlight.png */; };
+		E7C6111A1E9728B700BBB0DD /* home_selected_gr@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7C6110E1E9728B700BBB0DD /* home_selected_gr@2x.png */; };
+		E7C6111B1E9728B700BBB0DD /* home_selected_gr@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7C6110F1E9728B700BBB0DD /* home_selected_gr@3x.png */; };
+		E7C6111C1E9728B700BBB0DD /* home_unselected_gr@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7C611101E9728B700BBB0DD /* home_unselected_gr@2x.png */; };
+		E7C6111D1E9728B700BBB0DD /* home_unselected_gr@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7C611111E9728B700BBB0DD /* home_unselected_gr@3x.png */; };
+		E7C6111E1E9728B700BBB0DD /* home_selected_jl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7C611121E9728B700BBB0DD /* home_selected_jl@2x.png */; };
+		E7C6111F1E9728B700BBB0DD /* home_selected_jl@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7C611131E9728B700BBB0DD /* home_selected_jl@3x.png */; };
+		E7C611201E9728B700BBB0DD /* home_unselected_jl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7C611141E9728B700BBB0DD /* home_unselected_jl@2x.png */; };
+		E7C611211E9728B700BBB0DD /* home_unselected_jl@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7C611151E9728B700BBB0DD /* home_unselected_jl@3x.png */; };
+		E7C6112C1E9728D900BBB0DD /* HMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C611251E9728D900BBB0DD /* HMNavigationController.m */; };
+		E7C6112D1E9728D900BBB0DD /* HMTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C611271E9728D900BBB0DD /* HMTabBar.m */; };
+		E7C6112E1E9728D900BBB0DD /* HMTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C611291E9728D900BBB0DD /* HMTabBarViewController.m */; };
+		E7C6112F1E9728D900BBB0DD /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C6112B1E9728D900BBB0DD /* UIBarButtonItem+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +89,26 @@
 		E7C610E11E96404600BBB0DD /* UIWebView+SNFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+SNFoundation.m"; sourceTree = "<group>"; };
 		E7C610E31E96406F00BBB0DD /* NSData+SNFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+SNFoundation.h"; sourceTree = "<group>"; };
 		E7C610E41E96406F00BBB0DD /* NSData+SNFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+SNFoundation.m"; sourceTree = "<group>"; };
+		E7C6110B1E9728B700BBB0DD /* nav_BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_BG.png; sourceTree = "<group>"; };
+		E7C6110C1E9728B700BBB0DD /* nav_back_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_back_button.png; sourceTree = "<group>"; };
+		E7C6110D1E9728B700BBB0DD /* nav_back_button_hightlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_back_button_hightlight.png; sourceTree = "<group>"; };
+		E7C6110E1E9728B700BBB0DD /* home_selected_gr@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_selected_gr@2x.png"; sourceTree = "<group>"; };
+		E7C6110F1E9728B700BBB0DD /* home_selected_gr@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_selected_gr@3x.png"; sourceTree = "<group>"; };
+		E7C611101E9728B700BBB0DD /* home_unselected_gr@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_unselected_gr@2x.png"; sourceTree = "<group>"; };
+		E7C611111E9728B700BBB0DD /* home_unselected_gr@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_unselected_gr@3x.png"; sourceTree = "<group>"; };
+		E7C611121E9728B700BBB0DD /* home_selected_jl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_selected_jl@2x.png"; sourceTree = "<group>"; };
+		E7C611131E9728B700BBB0DD /* home_selected_jl@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_selected_jl@3x.png"; sourceTree = "<group>"; };
+		E7C611141E9728B700BBB0DD /* home_unselected_jl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_unselected_jl@2x.png"; sourceTree = "<group>"; };
+		E7C611151E9728B700BBB0DD /* home_unselected_jl@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_unselected_jl@3x.png"; sourceTree = "<group>"; };
+		E7C611231E9728D900BBB0DD /* BaseSkinColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseSkinColor.h; sourceTree = "<group>"; };
+		E7C611241E9728D900BBB0DD /* HMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMNavigationController.h; sourceTree = "<group>"; };
+		E7C611251E9728D900BBB0DD /* HMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMNavigationController.m; sourceTree = "<group>"; };
+		E7C611261E9728D900BBB0DD /* HMTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMTabBar.h; sourceTree = "<group>"; };
+		E7C611271E9728D900BBB0DD /* HMTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMTabBar.m; sourceTree = "<group>"; };
+		E7C611281E9728D900BBB0DD /* HMTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMTabBarViewController.h; sourceTree = "<group>"; };
+		E7C611291E9728D900BBB0DD /* HMTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMTabBarViewController.m; sourceTree = "<group>"; };
+		E7C6112A1E9728D900BBB0DD /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		E7C6112B1E9728D900BBB0DD /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +200,7 @@
 		E7C610261E96279300BBB0DD /* Vonder */ = {
 			isa = PBXGroup;
 			children = (
+				E7C611221E9728D900BBB0DD /* HMTabbar */,
 				E7C610861E963BBB00BBB0DD /* SNFoundation */,
 				E7C610281E96288400BBB0DD /* BaseNetwork */,
 			);
@@ -174,6 +210,7 @@
 		E7C610271E9627A700BBB0DD /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				E7C611161E9728B700BBB0DD /* 导航栏 */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -226,6 +263,41 @@
 			path = SNFoundation;
 			sourceTree = "<group>";
 		};
+		E7C611161E9728B700BBB0DD /* 导航栏 */ = {
+			isa = PBXGroup;
+			children = (
+				E7C6110B1E9728B700BBB0DD /* nav_BG.png */,
+				E7C6110C1E9728B700BBB0DD /* nav_back_button.png */,
+				E7C6110D1E9728B700BBB0DD /* nav_back_button_hightlight.png */,
+				E7C6110E1E9728B700BBB0DD /* home_selected_gr@2x.png */,
+				E7C6110F1E9728B700BBB0DD /* home_selected_gr@3x.png */,
+				E7C611101E9728B700BBB0DD /* home_unselected_gr@2x.png */,
+				E7C611111E9728B700BBB0DD /* home_unselected_gr@3x.png */,
+				E7C611121E9728B700BBB0DD /* home_selected_jl@2x.png */,
+				E7C611131E9728B700BBB0DD /* home_selected_jl@3x.png */,
+				E7C611141E9728B700BBB0DD /* home_unselected_jl@2x.png */,
+				E7C611151E9728B700BBB0DD /* home_unselected_jl@3x.png */,
+			);
+			name = "导航栏";
+			path = "../../../shenghuobang/MyAppFrame/Images/导航栏";
+			sourceTree = "<group>";
+		};
+		E7C611221E9728D900BBB0DD /* HMTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				E7C611231E9728D900BBB0DD /* BaseSkinColor.h */,
+				E7C611241E9728D900BBB0DD /* HMNavigationController.h */,
+				E7C611251E9728D900BBB0DD /* HMNavigationController.m */,
+				E7C611261E9728D900BBB0DD /* HMTabBar.h */,
+				E7C611271E9728D900BBB0DD /* HMTabBar.m */,
+				E7C611281E9728D900BBB0DD /* HMTabBarViewController.h */,
+				E7C611291E9728D900BBB0DD /* HMTabBarViewController.m */,
+				E7C6112A1E9728D900BBB0DD /* UIBarButtonItem+Extension.h */,
+				E7C6112B1E9728D900BBB0DD /* UIBarButtonItem+Extension.m */,
+			);
+			path = HMTabbar;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -260,6 +332,7 @@
 				TargetAttributes = {
 					E7C610091E961DC500BBB0DD = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = C6J8T6SJPD;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -287,10 +360,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7C6111C1E9728B700BBB0DD /* home_unselected_gr@2x.png in Resources */,
+				E7C611211E9728B700BBB0DD /* home_unselected_jl@3x.png in Resources */,
+				E7C611181E9728B700BBB0DD /* nav_back_button.png in Resources */,
+				E7C611171E9728B700BBB0DD /* nav_BG.png in Resources */,
+				E7C6111F1E9728B700BBB0DD /* home_selected_jl@3x.png in Resources */,
+				E7C6111D1E9728B700BBB0DD /* home_unselected_gr@3x.png in Resources */,
+				E7C611191E9728B700BBB0DD /* nav_back_button_hightlight.png in Resources */,
 				E7C6101D1E961DC500BBB0DD /* LaunchScreen.storyboard in Resources */,
+				E7C6111E1E9728B700BBB0DD /* home_selected_jl@2x.png in Resources */,
 				E7C610311E9628B300BBB0DD /* loading.gif in Resources */,
+				E7C6111A1E9728B700BBB0DD /* home_selected_gr@2x.png in Resources */,
 				E7C6101A1E961DC500BBB0DD /* Assets.xcassets in Resources */,
+				E7C611201E9728B700BBB0DD /* home_unselected_jl@2x.png in Resources */,
 				E7C610181E961DC500BBB0DD /* Main.storyboard in Resources */,
+				E7C6111B1E9728B700BBB0DD /* home_selected_gr@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +434,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7C610151E961DC500BBB0DD /* ViewController.m in Sources */,
+				E7C6112E1E9728D900BBB0DD /* HMTabBarViewController.m in Sources */,
 				E7C610DB1E963FCB00BBB0DD /* NSDictionary+ExFoundation.m in Sources */,
 				E7C610121E961DC500BBB0DD /* AppDelegate.mm in Sources */,
 				E7C610DD1E963FCB00BBB0DD /* NSString+Additions.m in Sources */,
@@ -359,10 +444,13 @@
 				E7C610DE1E963FCB00BBB0DD /* NSString+SNFoundation.m in Sources */,
 				E7C610DC1E963FCB00BBB0DD /* NSDictionary+SNFoundation.m in Sources */,
 				E7C610851E96361900BBB0DD /* MainBaseNetworkRequest.m in Sources */,
+				E7C6112F1E9728D900BBB0DD /* UIBarButtonItem+Extension.m in Sources */,
 				E7C610D91E963FCB00BBB0DD /* NSDate+ExFoundation.m in Sources */,
 				E7C610301E9628B300BBB0DD /* GiFHUD.m in Sources */,
+				E7C6112C1E9728D900BBB0DD /* HMNavigationController.m in Sources */,
 				E7C610DF1E963FCB00BBB0DD /* UIColor+SNFoundation.m in Sources */,
 				E7C610D81E963FCB00BBB0DD /* NSArray+SNFoundation.m in Sources */,
+				E7C6112D1E9728D900BBB0DD /* HMTabBar.m in Sources */,
 				E7C6100F1E961DC500BBB0DD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +572,7 @@
 			baseConfigurationReference = CF9702E9538AB6B1D06E4D3D /* Pods-MyAppFrame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C6J8T6SJPD;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/MyAppFrame/PrefixHeader.pch";
 				INFOPLIST_FILE = MyAppFrame/Info.plist;
@@ -499,6 +588,7 @@
 			baseConfigurationReference = 7539BB608AA0092C9790E2BF /* Pods-MyAppFrame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C6J8T6SJPD;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/MyAppFrame/PrefixHeader.pch";
 				INFOPLIST_FILE = MyAppFrame/Info.plist;

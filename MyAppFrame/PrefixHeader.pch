@@ -49,5 +49,16 @@
 //nil字符串判断返回
 #define VALIDATE_STRING(str) (IsNilOrNull(str) ? @"" : str)
 
+//**是否为iOS7start**/
+#define iOS7 ([[UIDevice currentDevice].systemVersion doubleValue] >= 7.0)
+
+/**屏幕的宽高**/
+#define ScreenW [UIScreen mainScreen].bounds.size.width
+#define ScreenH [UIScreen mainScreen].bounds.size.height
+
+/*占位图片*/
+#define PlaceholderImage [UIImage imageNamed:@"position.png"]
+
+
 
 #endif /* PrefixHeader_pch */
